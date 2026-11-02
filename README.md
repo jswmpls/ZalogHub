@@ -9,17 +9,17 @@
 - Vite
 
 ## Запуск
-
+```
 npm install
 npm run dev
-
+```
 Открыть http://localhost:5173
 
 ## Сборка
-
+```
 npm run build
 npm run preview
-
+```
 ## Функционал
 
 - Добавление задач (пустые/из пробелов запрещены)
