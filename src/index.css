@@ -1,0 +1,32 @@
+:root {
+  --color-task-completed: #1f9d55;
+  --color-task-active: #d93025;
+  --color-task-completed-bg: #e6f7ee;
+  --color-task-active-bg: #fdecea;
+
+  --color-bg: #f4f5f7;
+  --color-surface: #ffffff;
+  --color-text: #222222;
+  --color-text-muted: #888888;
+  --color-primary: #3e006e;
+  --color-primary-hover: #481073;
+  --color-primary-disabled: #d296ff;
+  --color-danger: #d33;
+
+  --radius: 8px;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
